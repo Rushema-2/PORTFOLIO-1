@@ -1,88 +1,116 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
-#body-container{
-}
 
 
-#header-container{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    
-}
-#menu-container{
-    display: flex;
-   gap: 60px;
-   font-size: 20px;
-   margin: 60px;
-}
-#logo img{
-   display: flex;
-   margin: 80px;
-   width: 100px;
-   height: 90px;
+*,
+::after{
+ margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial;
 }
 
-#boxes-container{
-    display: flex;
-    justify-content: center;
-    padding: 2px;
-    gap: 70px;
-    height: 600px;
-   
+body{
+    background:white#f5f5f5;
+    padding:20px 50px;
 }
-#box1-container{
-    width: 47%;
-    
 
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
 }
-#tA{
-    color: aqua;
-    margin-bottom: 60px;
-    font-size: larger;
-}
-#mid-container{
-    color: green;
-    margin-bottom: 30px;
-    
-}
-#GA{
-    color: yellow;
-}
-#text5-container{
-    margin-top: 40px;
-}
-#box2-container{
 
+.logo span{
+    color:#0c97c7;
+    font-size:5px;
+    font-weight:bold;
+    border:4px solid #0c97c7;
+    border-radius:50%;
+    padding:0 10px;
 }
-#t2{
-    margin-top: 10px;
+
+nav a{
+    text-decoration:none;
+    color:black;
+    margin-left:25px;
 }
-#t3{
-    margin-top: 10px;
+nav a:hover{
+    color: cadetblue;
 }
-#buttons-container{
-    margin-top: 70px;
-    
+
+.hero{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-top:60px;
 }
-#b1{
-    background-color: rgb(135, 212, 223);
-    width: 150px;
-    height: 50px;
-    
+
+.text{
+    width:50%;
 }
-#b2{
-    background-color: white;
-    width: 150px;
-    height: 50px;
+
+.welcome{
+    color:#23a6d5;
+    margin-bottom:20px;
 }
-#photo img{
-    height: 60vh;
-    margin-left: 30%;
-  
+
+h1{
+    font-size:50px;
+    color:#008cb5;
+}
+
+h1 span{
+    color:#d88a4f;
+}
+
+.desc{
+    margin-top:20px;
+    width:450px;
+    line-height:1.5;
+}
+
+.buttons{
+    margin-top:30px;
+}
+
+button{
+    padding:12px 25px;
+    border:none;
+    cursor:pointer;
+    border-radius:5px;
+}
+button:hover{
+    background-color: cadetblue;
+}
+
+.hire{
+    background:#0099cc;
+    color:white;
+}
+
+.project{
+    border:2px solid #0099cc;
+    background:white;
+    color:#0099cc;
+    margin-left:10px;
+}
+
+.image{
+    width:25%;
+}
+
+.shape{
+    width:320px;
+    height:380px;
+    background:#84d5eb;
+    border-radius:50% 50% 0 50%;
+    overflow:hidden;
+    position:relative;
+}
+
+.shape img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
 }
     
 
