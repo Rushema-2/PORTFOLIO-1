@@ -34,3 +34,42 @@
 #texte-container1{
     margin-left: 25%;
 }
+
+
+body{
+    background: wheat;
+    color:rgb(27, 26, 26);
+    padding:50px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    background: rgb(131, 128, 122);
+    border-radius:10px;
+    overflow:hidden;
+}
+
+th{
+    background: rgb(172, 170, 167);
+    color:#1b1d22;
+    padding:15px;
+    text-align: left;
+    
+
+}
+
+td{
+    padding:15px;
+    border-bottom:1px solid rgb(150, 148, 145);
+}
+
+tr:hover{
+    background: rgb(99, 98, 97);
+    transition:0.3s;
+}
+
+td:last-child{
+    color:#3d3b3b;
+    font-weight:bold;
+}
