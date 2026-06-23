@@ -1,75 +1,117 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
 }
-#body-container{
-    background-color:  rgb(153, 151, 147);
-}
-#boxes2-container{
-     display: flex;
-    justify-content: center;
-    text-align: center;
-    height: 700px;
-    margin-top: 9%;
-    
-    
-}
-#boxm{
-    width: 300px;
-    height: 400px;
-}
-#boxn{
-    background-color: rgb(185, 184, 181);
-    width: 500px;
-    height: 650px;
-}
-#photo img{
-    height: 650px;
-    width: 300px;
-}
-#tA{
-    margin-bottom: 20%;
-    margin-top: 15%;
-}
-#texte-container1{
-    margin-left: 25%;
-}
-
 
 body{
-    background: wheat;
-    color:rgb(27, 26, 26);
-    padding:50px;
+    background:#f4f6fb;
+}
+
+.about{
+    max-width:80%;
+    margin:50px auto;
+    background:#e0dede;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,.1);
+}
+
+.container{
+    display:flex;
+    gap:40px;
+    align-items:center;
+}
+
+.profile img{
+    width:380px;
+    height:500px;
+    object-fit:cover;
+    border-radius:20px;
+}
+
+.content{
+    flex:1;
+}
+
+.subtitle{
+    color:#2563eb;
+    font-weight:600;
+}
+
+.content h1{
+    font-size:55px;
+    margin:15px 0;
+    color:#111827;
+}
+
+.content p{
+    font-size:20px;
+    line-height:1.8;
+    color:#4b5563;
+    margin-bottom:20px;
+}
+
+.content span{
+    color:#2563eb;
+    font-weight:bold;
+}
+
+.badges{
+    display:flex;
+    flex-wrap:wrap;
+    gap:15px;
+    margin-top:20px;
+}
+
+.badges div{
+    padding:12px 20px;
+    background:#fff;
+    border:1px solid #ddd;
+    border-radius:10px;
+    box-shadow:0 2px 8px rgba(0,0,0,.08);
 }
 
 table{
     width:100%;
+    margin-top:40px;
     border-collapse:collapse;
-    background: rgb(131, 128, 122);
-    border-radius:10px;
-    overflow:hidden;
 }
 
 th{
-    background: rgb(172, 170, 167);
-    color:#1b1d22;
-    padding:15px;
-    text-align: left;
-    
-
+    background:#2563eb;
+    color:white;
+    padding:18px;
+    text-align:left;
 }
 
 td{
-    padding:15px;
-    border-bottom:1px solid rgb(150, 148, 145);
+    padding:18px;
+    border-bottom:1px solid #ddd;
 }
 
 tr:hover{
-    background: rgb(99, 98, 97);
-    transition:0.3s;
+    background:#f5f8ff;
 }
 
-td:last-child{
-    color:#3d3b3b;
-    font-weight:bold;
+@media(max-width:768px){
+
+.container{
+    flex-direction:column;
 }
+
+.profile img{
+    width:100%;
+    height:auto;
+}
+
+.content h1{
+    font-size:38px;
+}
+}
+
+
+
+
+
