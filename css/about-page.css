@@ -3,7 +3,7 @@
     padding: 0;
 }
 #body-container{
-    background-color:  wheat;
+    background-color:  rgb(153, 151, 147);
 }
 #boxes2-container{
      display: flex;
@@ -19,7 +19,7 @@
     height: 400px;
 }
 #boxn{
-    background-color: wheat;
+    background-color: rgb(185, 184, 181);
     width: 500px;
     height: 650px;
 }
