@@ -6,7 +6,7 @@
 }
 
 body {
-  background: #f7f5f5;
+  background: white;
   min-height: 100vh;
 }
 
@@ -81,7 +81,7 @@ nav a i {
   gap: 20px;
 }
 .buttons :hover{
-    color: black;
+    background-color: aqua;
 }
 
 .btn {
@@ -211,11 +211,11 @@ nav a i {
 .circle-2{
     position:absolute;
     border-radius:50%;
-    border:2px dashed #0f12af;
+    border:2px dashed #111111;
 }
 
 .circle-1{
-    background-color :blue;
+    background-color :rgb(96, 96, 129);
     width:460px;
     height:460px;
     top:8px;
