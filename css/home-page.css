@@ -103,6 +103,9 @@ nav a i {
   text-align: center;
   position: relative;
 }
+.profile-container{
+  position: relative;
+}
 
 .circle {
   width: 450px;
@@ -119,6 +122,14 @@ nav a i {
   height: 100%;
   object-fit: cover;
 }
+@keyframes sclore{
+  0%{
+    transform: translateY(100%);
+  }
+  100%{
+    transform: translateY(0%)
+  }
+}
 
 .status {
   background: white;
@@ -126,9 +137,12 @@ nav a i {
   padding: 20px;
   border-radius: 20px;
   position: absolute;
-  bottom: 20px;
+  bottom: 20%;
   right: 40px;
   box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  animation: infinite;
+  animation-name: sclore;
+  animation-duration: 3s;
 }
 
 .status h3 {
@@ -143,6 +157,7 @@ nav a i {
 .status p {
   color: #00b894;
 }
+
 
 .skills {
   display: flex;
