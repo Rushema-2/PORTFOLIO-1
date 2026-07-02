@@ -6,7 +6,7 @@
 }
 
 body {
-  background: white;
+  background: rgb(247, 245, 245);
   min-height: 100vh;
 }
 
@@ -253,7 +253,7 @@ nav a i {
     height:480px;
     top:1px;
     left:35px;
-      background: linear-gradient(90deg, red, orange, green, blue, purple);
+      background: linear-gradient(90deg, rgb(142, 28, 170), rgb(10, 10, 10), green, blue, purple);
     
 }
 
