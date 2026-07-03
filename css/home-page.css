@@ -32,7 +32,7 @@ nav a {
   font-weight: 600;
 }
 nav a:hover{
-    color: green;
+    color: rgb(9, 175, 9);
 }
 
 nav a i {
